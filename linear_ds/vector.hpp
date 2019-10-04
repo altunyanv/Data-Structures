@@ -1,11 +1,11 @@
 #pragma once
 
-class vector {
+class Vector {
 private:
   int * container;
   int size, capacity;
 public:
-  vector(int * _container, int _size) : size(_size), container(new int[_size]), capacity(_size) {
+  Vector(int * _container, int _size) : size(_size), container(new int[_size]), capacity(_size) {
     for(int i = 0; i < size; ++i)
       container[i] = _container[i];
   }
@@ -50,12 +50,12 @@ public:
 };
 
 
-class vectorNaive {
+class VectorNaive {
 private:
   int * container;
   int size, capacity;
 public:
-  vectorNaive(int * _container, int _size) : size(_size), container(new int[_size]), capacity(_size) {
+  VectorNaive(int * _container, int _size) : size(_size), container(new int[_size]), capacity(_size) {
     for(int i = 0; i < size; ++i)
       container[i] = _container[i];
   }
