@@ -1,6 +1,6 @@
 #include <iostream>
-#include "linear_ds\vector.hpp"
 #include <ctime>
+#include "linear_ds\vector.hpp"
 
 using namespace std;
 
