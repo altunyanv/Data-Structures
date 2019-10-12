@@ -93,5 +93,20 @@ public:
       next = previous = nullptr;
     }
   };
-  // TODO:
+  /*
+    Doubly Linked List Data Structure
+    Head and tail (first and last) elements are kept, also can be kept the size as a field
+    NOTE: head.previous = tail.next = nullptr // keep this condition after each operation
+    
+    Constructors:
+      Empty constructor - creates empty linked list
+    
+    Methods:
+      push_front / pop_front
+      push_back / pop_back
+      insert - gets value and node after which new node must be added
+      erase - gets node which must be erased
+
+  */
+  
 };
